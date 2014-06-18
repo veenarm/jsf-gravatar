@@ -8,7 +8,7 @@ no value is required in the component (enhancement is to allow this ot be an alt
 
 Declared namespace http://jrkr.me/tags (to be updated to http://jrkr.me/tags/gravatar) this is because I'm going to likely introduce a common module with other tags I create later on, but this one needs to be available in silo.
 
-Usage:
+Usage: (assuming you use jg as the namespace identifier)
   <jg:gravatar email="blah@blah.com" size="50" rating="g" defaultImgType="identicon" />
   
   email - required
