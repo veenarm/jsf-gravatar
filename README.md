@@ -16,7 +16,8 @@ Usage:
   rating - optional (default is g, values are "g, pg, r, x")
   defaultImgType - optional (default is none, blank gravatar logo, values are "wavatar, monsterid, identicon, 404")
   
-  
+  ---------
+  http://asaph.org/gravatar/  - used for settings and details provided for generating the urls.
   ---------
   Default Icon URL - Not implemented yet - need to investigate how this url is located.
   
