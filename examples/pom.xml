@@ -21,7 +21,7 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>jrkr.me</groupId>
+            <groupId>me.jrkr</groupId>
             <artifactId>jsfgravatar-core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
