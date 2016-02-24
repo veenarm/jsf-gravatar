@@ -1,4 +1,8 @@
 
+jar {
+  baseName 'jsfgravatar-core'
+}
+
 dependencies {
   compile "commons-logging:commons-logging:1.0.4"
   compile "commons-lang:commons-lang:2.1"
