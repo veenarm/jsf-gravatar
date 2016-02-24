@@ -1,6 +1,8 @@
+group = 'me.jrkr'
+version = '1.1-SNAPSHOT'
 
 jar {
-  baseName 'jsfgravatar-core' += [ version ]
+  baseName 'jsfgravatar-core'
 }
 
 dependencies {
