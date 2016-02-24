@@ -2,7 +2,7 @@ apply plugin: "war"
 
 
 dependencies {
-  compile "me.jrkr:jsfgravatar-core:1.1-SNAPSHOT"
+  compile (':core')
   compile "commons-logging:commons-logging:1.0.4"
   
   runtime "jstl:jstl:1.2"
