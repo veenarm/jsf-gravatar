@@ -7,6 +7,10 @@ packaging = 'jar'
 uploadTask.repositories.mavenDeployer.pom.artifactId = 'jsfgravatar-core'
 archiveTask.baseName = 'jsfgravatar-core'
     
+configurations {
+    providedCompile
+}
+
 dependencies {
   compile "commons-logging:commons-logging:1.0.4"
   compile "commons-lang:commons-lang:2.1"
@@ -18,8 +22,8 @@ dependencies {
  
   // provided dependencies
   providedCompile 'javax:javaee-web-api:7.0'
-  providedCompile 'com.sun.faces:jsf-api:${jsf.version}'
-  providedCompile 'com.sun.faces:jsf-impl:${jsf.version}'
+  providedCompile 'com.sun.faces:jsf-api:2.2.5'
+  providedCompile 'com.sun.faces:jsf-impl:2.2.5'
     
 
     // test dependencies
