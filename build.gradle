@@ -1,14 +1,4 @@
 apply plugin: "java"
-apply plugin: 'maven'
-
-groupId = 'me.jrkr'
-version = '1.1-SNAPSHOT'
-packaging = 'pom'
-
-uploadTask.repositories.mavenDeployer.pom.artifactId = 'jsfgravatar-parent'
-archiveTask.baseName = 'jsfgravatar-parent'
-
-
 
 subprojects {
   apply plugin : 'java'
