@@ -9,6 +9,9 @@ subprojects {
   apply plugin : 'java'
   apply plugin: 'maven'
   
+  group = 'me.jrkr'
+  version = '1.1-SNAPSHOT'
+
   repositories {
      mavenCentral()
      
