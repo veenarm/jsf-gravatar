@@ -1,6 +1,6 @@
 
 jar {
-  baseName 'jsfgravatar-core'
+  baseName 'jsfgravatar-core' += [ version ]
 }
 
 dependencies {
