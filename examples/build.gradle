@@ -1,5 +1,8 @@
 apply plugin: "war"
 
+war {
+	archiveName 'jsfgravatar-examples.war'
+}
 
 dependencies {
   compile project(':core')
