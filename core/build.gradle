@@ -1,0 +1,29 @@
+apply plugin: "java"
+
+groupId = 'me.jrkr'
+version = '1.1-SNAPSHOT'
+packaging = 'jar'
+
+uploadTask.repositories.mavenDeployer.pom.artifactId = 'jsfgravatar-core'
+archiveTask.baseName = 'jsfgravatar-core'
+    
+dependencies {
+  compile "commons-logging:commons-logging:1.0.4"
+  compile "commons-lang:commons-lang:2.1"
+  compile "commons-validator:commons-validator:1.2.0"
+  compile "commons-collections:commons-collections:3.1"
+  compile "commons-el:commons-el:1.0"
+  compile "commons-codec:commons-codec:1.3"
+  compile "com.google.guava:guava:13.0"
+ 
+  // provided dependencies
+  providedCompile 'javax:javaee-web-api:7.0'
+  providedCompile 'com.sun.faces:jsf-api:${jsf.version}'
+  providedCompile 'com.sun.faces:jsf-impl:${jsf.version}'
+    
+
+    // test dependencies
+    testCompile 'junit:junit:3.8.2'
+    testCompile 'org.apache.shale:shale-test:1.0.5'
+        
+}
