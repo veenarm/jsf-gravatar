@@ -2,7 +2,7 @@ apply plugin: "war"
 
 
 dependencies {
-  compile (':core')
+  compile project(':core')
   compile "commons-logging:commons-logging:1.0.4"
   
   runtime "jstl:jstl:1.2"
