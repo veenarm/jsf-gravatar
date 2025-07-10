@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jsf-gravatar
+  description: jsf-gravatar component
+  tags:
+    - java
+spec:
+  type: library
+  lifecycle: production
+  owner: artist-relations-team
+  system: public-websites
